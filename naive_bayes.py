@@ -3,7 +3,7 @@
 python version: 3.5
 To implement Naive Bayes(NB)
 			
-			X_test: list of words vectors of test documents
+	    X_test: list of words vectors of test documents
             X_train: list of words vectors of training documents
             y_train: list of classes of training documents
             y_test: list of classes of test documents
