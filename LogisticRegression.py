@@ -62,3 +62,5 @@ class LogisticRegression:
 			if y_test[i] == predictions[i]:
 				correct += 1
 		return correct / total
+
+	
