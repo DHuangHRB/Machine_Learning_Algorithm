@@ -5,7 +5,7 @@ To implement SVM - Support Vector Machine
 Parameters:			
         X_train: training data
         y_train: classes of training data
-	    X_test: test data 
+        X_test: test data 
         y_test: classes of test data
 		
         C: constant of slack variables. default = 1.0
@@ -16,14 +16,14 @@ Parameters:
 
 Key Attributes:
         svIdx: indices of support vectors
-		svs: support vectors
-		alphas: Lagrange multipliers
-		b: intercept/constant in decision function
+        svs: support vectors
+        alphas: Lagrange multipliers
+        b: intercept/constant in decision function
 		
 Method:
         fit(X_train, y_train): fit the SVM model according to the given training data
-		predict(X_test): perform classification on test data
-		accuracy(y_test, predictions): return mean accuracy on the given test data and labels
+        predict(X_test): perform classification on test data
+        accuracy(y_test, predictions): return mean accuracy on the given test data and labels
 '''
 
 from numpy import *
