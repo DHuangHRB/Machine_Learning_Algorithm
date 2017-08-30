@@ -4,3 +4,4 @@
 <p> 
 <p>3.Naive Bayes(NB)
 <p>4.Logistic Regression
+<p>5.Support Vector Machine(SVM)
